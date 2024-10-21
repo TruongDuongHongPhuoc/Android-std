@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    tools:context=".View.YogaClassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:backgroundTint="#000000"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/classImage"
+                android:layout_width="168dp"
+                android:layout_height="145dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:scaleType="fitXY"
+
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/className"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Class Name"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/classTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Class Teacher"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ClassDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="13/2/2024"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/classDescription"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/classCapability"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="24/40 capability"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/classCourse"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="courseLong to"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
