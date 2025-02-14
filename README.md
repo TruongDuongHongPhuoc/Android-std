@@ -206,6 +206,7 @@ I have developed an application using Android Studio and MAUI.NET, integrated wi
 
 <h2> result</h2>
 <h3>ANDROID STD</h3>
+
 ![image](https://github.com/user-attachments/assets/dbc16cc4-7e72-45b1-8b13-492788471d0e)
 ![image](https://github.com/user-attachments/assets/c11bb6bd-5a5b-42b3-81e6-6432e0d29dc5)
 ![image](https://github.com/user-attachments/assets/d1a06656-81a3-4fc7-92fd-125d3639dc3b)
