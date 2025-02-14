@@ -1,8 +1,13 @@
 <h1> ANDROID APPLICATION </h1>
 
+
+<h1> INTRODUCTION</h1>
+I have developed an application using Android Studio and MAUI.NET, integrated with SQLite and Firebase to allow seamless synchronization between two apps. The system manages courses and classes, where each course can have multiple classes. Key features include CRUD operations, search, add to cart, and backlog functionality for users. Notably, the admin app, built with Android Studio, ensures offline changes are synchronized with Firebase once the admin device reconnects to the internet.
 <h2>Use Case</h2>
+
 ![image](https://github.com/user-attachments/assets/6c8cd74f-cb87-4bd2-9adc-93f6f1744608)
 <h2>Entity relationship điagram</h2>
+
 ![image](https://github.com/user-attachments/assets/9a5a79a0-758f-4433-afb8-7b6bb978680c)
 
 <h2>TEST CASES</h2>
